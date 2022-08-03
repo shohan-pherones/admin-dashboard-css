@@ -284,3 +284,133 @@ main .insights small {
   display: block;
   margin-top: 1.6rem;
 }
+
+/*==================ORDERS================*/
+main .recent-orders {
+  margin-top: 2rem;
+}
+
+main .recent-orders h2 {
+  margin-bottom: 0.8rem;
+}
+
+main .recent-orders table {
+  background-color: var(--color-white);
+  width: 100%;
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+  text-align: left;
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+}
+
+main .recent-orders table:hover {
+  box-shadow: none;
+}
+
+main table tbody td {
+  height: 2rem;
+  border-bottom: 1px solid var(--color-light);
+}
+
+main table tbody tr:last-child td {
+  border: none;
+}
+
+/*==================RIGHT================*/
+.right {
+  margin-top: 1.4rem;
+}
+
+.right .profile {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  text-align: right;
+}
+
+.right .recent-updates {
+  margin-top: 2rem;
+}
+
+.right .recent-updates h2 {
+  margin-bottom: 0.8rem;
+}
+
+.right .recent-updates .updates {
+  background-color: var(--color-white);
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+}
+
+.right .recent-updates .updates:hover {
+  box-shadow: none;
+}
+
+.right .recent-updates .updates .update {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/*==================ANALYTICS================*/
+.right .analytics {
+  margin-top: 2rem;
+}
+
+.right .analytics h2 {
+  margin-bottom: 0.8rem;
+}
+
+.right .analytics .item {
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+  padding: 1.4rem var(--card-padding);
+  border-radius: var(--border-radius-3);
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+}
+
+.right .analytics .item:hover {
+  box-shadow: none;
+}
+
+.right .analytics .item .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0;
+}
+
+.right .analytics .item .icon span i {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+}
+
+.right .analytics .add-product {
+  background: transparent;
+  border: 2px dashed var(--color-primary);
+  box-shadow: none;
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right .analytics .add-product div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.right .analytics .add-product div i {
+  font-size: 1.4rem;
+}
